@@ -9,7 +9,7 @@ If the person moves out of the front of the cam, program randomly changes the pi
 
 Right now, if you run this in local server the feed of the cam is very small, so not so good for an actual web app, but changing canvas size this can be modified.
 
-See: https://github.com/auduno/clmtrackr
+See: https://github.com/auduno/clmtrackr <br />
 https://p5js.org
 
 For more details on the installation: http://mfadt.parsons.edu/2016/leave-her-solo/
