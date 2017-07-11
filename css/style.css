@@ -1,0 +1,67 @@
+@font-face{ 
+	font-family: 'civita';
+	src: url('CivitaLig-webfont.eot');
+	src: url('CivitaLig-webfont.eot?#iefix') format('embedded-opentype'),
+	     url('CivitaLig-webfont.woff') format('woff'),
+	     url('CivitaLig-webfont.ttf') format('truetype'),
+	     url('CivitaLig-webfont.svg#webfont') format('svg');
+}
+
+body { 
+	font-family: 'civita';
+	padding: 0;
+	margin: 0;
+}
+
+#container {
+	width: 500;
+	height: 375px;
+	margin: 0px auto;
+	padding: 0px;
+	/*border: 10px solid #000;*/
+}
+#landscape {
+	background-image: url(../ext_layer/0.jpg);
+	background-color: #000;
+	background-attachment: fixed;
+	width: 500px;
+	height: 375px;
+	position: absolute;
+	opacity:0.8;
+
+}
+
+#face {
+/*
+	-webkit-clip-path: polygon(5% 5%, 100% 0%, 100% 75%, 75% 75%, 75% 100%, 50% 75%, 0% 75%);
+	clip-path: polygon(5% 5%, 100% 0%, 100% 75%, 75% 75%, 75% 100%, 50% 75%, 0% 75%);
+	*/
+
+	background-image: url(../int_layer/0.jpg);
+	background-attachment: fixed;
+	position: absolute;
+	opacity:0.9;
+}
+
+#text {
+	font-size: 20pt;
+  -moz-transform: scaleX(-1);    /* Gecko */
+  -o-transform: scaleX(-1);      /* Opera */
+  -webkit-transform: scaleX(-1); /* Webkit */
+  transform: scaleX(-1);  
+  width: 350px
+}
+#video {
+	width: 500px;
+	height: 375px;
+	position: absolute;
+}
+#bg {
+	background-image: url(../img/bg.jpg);
+	width: 500px;
+	height: 375px;
+	position: absolute;
+	/*background-position: center;*/
+	opacity:0.8;
+
+}
